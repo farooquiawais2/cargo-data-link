@@ -13,7 +13,7 @@ function createWindow() {
     }
   });
 
-  win.loadURL('http://localhost:3000');
+  win.loadURL('http://localhost:4000');
 
   win.on('closed', () => {
     win = null; // Set win to null when the window is closed
